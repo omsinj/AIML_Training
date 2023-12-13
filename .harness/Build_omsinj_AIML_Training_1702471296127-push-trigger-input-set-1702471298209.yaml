@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_omsinj_AIML_Training_1702471296127-push-trigger-input-set
+  identifier: Build_omsinj_AIML_Training_1702471296127pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_omsinj_AIML_Training_1702471296127
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
